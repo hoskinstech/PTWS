@@ -47,34 +47,16 @@ LIBS:Transistors-BJH
 LIBS:ptws-cache
 EELAYER 25 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
-Title "PTWS Schematic"
+Sheet 3 4
+Title ""
 Date ""
 Rev ""
-Comp "Hoskins.Tech"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 900  900  1900 1600
-U 57A8C991
-F0 "Main" 60
-F1 "Main.sch" 60
-$EndSheet
-$Sheet
-S 900  2800 1950 1600
-U 57AA0953
-F0 "Power" 50
-F1 "Power.sch" 50
-$EndSheet
-$Sheet
-S 900  4700 1950 1600
-U 57AA0956
-F0 "Indication" 50
-F1 "Indication.sch" 50
-$EndSheet
 $EndSCHEMATC
