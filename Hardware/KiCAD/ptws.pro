@@ -1,4 +1,4 @@
-update=Sat 13 Aug 2016 10:04:19 BST
+update=Sun 21 Aug 2016 14:39:48 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName42=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Oscillators
 LibName43=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/PowerSymbols-BJH
 LibName44=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName45=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
+LibName46=MemoryDevices-BJH

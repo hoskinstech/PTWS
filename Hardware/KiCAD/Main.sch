@@ -44,6 +44,7 @@ LIBS:Oscillators-BJH
 LIBS:PowerSymbols-BJH
 LIBS:Relays
 LIBS:Transistors-BJH
+LIBS:MemoryDevices-BJH
 LIBS:ptws-cache
 EELAYER 25 0
 EELAYER END
@@ -996,4 +997,34 @@ Wire Wire Line
 Connection ~ 7350 6200
 Wire Wire Line
 	7350 5550 7350 5700
+$Comp
+L S25FL127S_SOIC U?
+U 1 1 57B9C014
+P 5850 4650
+F 0 "U?" H 5850 4700 60  0000 L CNN
+F 1 "S25FL127S_SOIC" H 5850 4800 60  0000 L CNN
+F 2 "" H 6200 4450 60  0000 C CNN
+F 3 "" H 6200 4450 60  0000 C CNN
+	1    5850 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 4750 0    50   Input ~ 0
+FLASH_SS
+Wire Wire Line
+	5350 4750 5650 4750
+Text GLabel 5350 4850 0    50   Input ~ 0
+SCLK
+Wire Wire Line
+	5350 4850 5650 4850
+Text GLabel 5350 5050 0    50   Input ~ 0
+MSDO
+Wire Wire Line
+	5350 5050 5650 5050
+Text GLabel 5350 4950 0    50   Output ~ 0
+MSDI
+Wire Wire Line
+	5350 4950 5650 4950
+NoConn ~ 7100 4850
+NoConn ~ 7100 4750
+NoConn ~ 7100 4950
 $EndSCHEMATC
