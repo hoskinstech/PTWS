@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ptws-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -54,7 +55,7 @@ Sheet 1 4
 Title "PTWS Schematic"
 Date ""
 Rev ""
-Comp "Hoskins.Tech"
+Comp "HOSKINS.TECH"
 Comment1 ""
 Comment2 ""
 Comment3 ""
