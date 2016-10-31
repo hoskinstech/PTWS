@@ -45,6 +45,7 @@ LIBS:Oscillators-BJH
 LIBS:PowerSymbols-BJH
 LIBS:Relays
 LIBS:Transistors-BJH
+LIBS:MemoryDevices-BJH
 LIBS:ptws-cache
 EELAYER 25 0
 EELAYER END
